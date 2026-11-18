@@ -3,65 +3,61 @@ using System;
 
 class Program
 {
-    static void PrintMatrix(int[,] matrix)
+    static void Main()
     {
-        for (int i = 0; i < 5; i++)
+        int[,] matrix = new int[5, 5];
+        Random random = new Random(12);
+
+        // Матрицаны кездейсоқ сандармен толтыру
+        for (int i = 0; i < matrix.GetLength(0); i++)
         {
-            for (int j = 0; j < 5; j++)
+            for (int j = 0; j < matrix.GetLength(1); j++)
             {
-                Console.Write(matrix[i, j] + "\t");
+                matrix[i, j] = random.Next(-10, 11);
             }
+        }
+
+        // Матрицаны экранға шығару
+        Console.WriteLine("Матрица:");
+
+        for (int i = 0; i < matrix.GetLength(0); i++)
+        {
+            for (int j = 0; j < matrix.GetLength(1); j++)
+            {
+                Console.Write($"{matrix[i, j],5}");
+            }
+
             Console.WriteLine();
         }
-    }
 
-    static void Calculate(int[,] matrix)
-    {
+        // Негізгі диагональдан жоғары орналасқан
+        // оң жұп элементтерді санау және көбейту
         int count = 0;
-        int product = 1;
+        long product = 1;
 
-        for (int i = 0; i < 5; i++)
+        for (int i = 0; i < matrix.GetLength(0); i++)
         {
-            for (int j = 0; j < 5; j++)
+            for (int j = i + 1; j < matrix.GetLength(1); j++)
             {
-                if (j > i && matrix[i, j] > 0 &&
-                    matrix[i, j] % 2 == 0)
+                if (matrix[i, j] > 0 && matrix[i, j] % 2 == 0)
                 {
-                    product *= matrix[i, j];
                     count++;
+                    product *= matrix[i, j];
                 }
             }
         }
 
+        // Нәтижені шығару
+        Console.WriteLine();
+
         if (count > 0)
         {
-            Console.WriteLine("Elementter sany: " + count);
-            Console.WriteLine("Kobeitindisi: " + product);
+            Console.WriteLine($"Оң жұп элементтер саны: {count}");
+            Console.WriteLine($"Олардың көбейтіндісі: {product}");
         }
         else
         {
-            Console.WriteLine("Jup on elementter joq.");
+            Console.WriteLine("Негізгі диагональдан жоғары оң жұп элементтер табылмады.");
         }
-    }
-
-    static void Main()
-    {
-        int nomer = 12;
-        int[,] matrix = new int[5, 5];
-
-        Random rnd = new Random(nomer);
-
-        for (int i = 0; i < 5; i++)
-        {
-            for (int j = 0; j < 5; j++)
-            {
-                matrix[i, j] = rnd.Next(-10, 11);
-            }
-        }
-
-        Console.WriteLine("Bastapky matrix:");
-        PrintMatrix(matrix);
-
-        Calculate(matrix);
     }
 }
