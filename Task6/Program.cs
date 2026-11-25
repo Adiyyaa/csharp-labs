@@ -1,11 +1,12 @@
 ﻿
 using System;
+using System.Text;
 
 class Program
 {
     static string ReplaceMultipleSpaces(string text)
     {
-        string result = "";
+        StringBuilder result = new StringBuilder();
         bool previousWasSpace = false;
 
         for (int i = 0; i < text.Length; i++)
@@ -16,19 +17,19 @@ class Program
             {
                 if (!previousWasSpace)
                 {
-                    result += ch;
+                    result.Append(ch);
                 }
 
                 previousWasSpace = true;
             }
             else
             {
-                result += ch;
+                result.Append(ch);
                 previousWasSpace = false;
             }
         }
 
-        return result;
+        return result.ToString();
     }
 
     static void Main()
