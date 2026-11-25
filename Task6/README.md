@@ -89,7 +89,60 @@ Commit өзгерістерді компьютердегі жергілікті 
 
 
 ## Git тарихы
-* 033b549 (HEAD -> task6-fixes) Task6: StringBuilder арқылы жолды өңдеуді жақсарту
+```text
+* a09e01a (HEAD -> task6-fixes) Task6: README ішіне дұрыс скриншот қосу
+* 2088f5f Task6: дұрыс тест нәтижесінің скриншотын қосу
+* f5eb317 Task6: README тесттері мен қате сипаттамасын түзету
+* 033b549 Task6: StringBuilder арқылы жолды өңдеуді жақсарту
+* 3381075 (origin/main, origin/HEAD, main) README: Task6 сілтемесін қосу
+*   371a7ed Merge pull request #2 from Adiyyaa/task6
+|\  
+| | * f64f182 (refs/stash) On task6: README өзгерісі
+| |/| 
+| | * 1469c24 index on task6: 5e2cbfe Task6: тапсырманы орындау және құжаттама қосу
+| |/  
+| * 5e2cbfe (origin/task6, task6) Task6: тапсырманы орындау және құжаттама қосу
+|/  
+* ff07ffd Task5: README ішіне скриншот қосу
+* a5f60c3 README: Task5 сілтемесін қосу
+*   afca8e5 Merge pull request #1 from Adiyyaa/task5
+|\  
+| * 0769f01 (origin/task5, task5) Task5: README толықтыру
+| * 413ef26 Task5: GetLength қолдану
+| * 8d9cbe7 Task5: скриншотты қосу
+| * 4f89a8c Task5: README және құжаттаманы қосу
+| * 4f347af Task5: есептеу нәтижелерін тестілеу
+:
+* a09e01a (HEAD -> task6-fixes) Task6: README ішіне дұрыс скриншот қосу
+* 2088f5f Task6: дұрыс тест нәтижесінің скриншотын қосу
+* f5eb317 Task6: README тесттері мен қате сипаттамасын түзету
+* 033b549 Task6: StringBuilder арқылы жолды өңдеуді жақсарту
+* 3381075 (origin/main, origin/HEAD, main) README: Task6 сілтемесін қосу
+*   371a7ed Merge pull request #2 from Adiyyaa/task6
+|\  
+| | * f64f182 (refs/stash) On task6: README өзгерісі
+| |/| 
+| | * 1469c24 index on task6: 5e2cbfe Task6: тапсырманы орындау және құжаттама қосу
+| |/  
+| * 5e2cbfe (origin/task6, task6) Task6: тапсырманы орындау және құжаттама қосу
+:
+* a09e01a (HEAD -> task6-fixes) Task6: README ішіне дұрыс скриншот қосу
+* 2088f5f Task6: дұрыс тест нәтижесінің скриншотын қосу
+* f5eb317 Task6: README тесттері мен қате сипаттамасын түзету
+* 033b549 Task6: StringBuilder арқылы жолды өңдеуді жақсарту
+* 3381075 (origin/main, origin/HEAD, main) README: Task6 сілтемесін қосу
+*   371a7ed Merge pull request #2 from Adiyyaa/task6
+|\  
+| | * f64f182 (refs/stash) On task6: README өзгерісі
+| |/| 
+| | * 1469c24 index on task6: 5e2cbfe Task6: тапсырманы орындау және құжаттама қосу
+| |/  
+| * 5e2cbfe (origin/task6, task6) Task6: тапсырманы орындау және құжаттама қосу
+:
+* a09e01a (HEAD -> task6-fixes) Task6: README ішіне дұрыс скриншот қосу
+* 2088f5f Task6: дұрыс тест нәтижесінің скриншотын қосу
+* f5eb317 Task6: README тесттері мен қате сипаттамасын түзету
+* 033b549 Task6: StringBuilder арқылы жолды өңдеуді жақсарту
 * 3381075 (origin/main, origin/HEAD, main) README: Task6 сілтемесін қосу
 *   371a7ed Merge pull request #2 from Adiyyaa/task6
 |\  
@@ -112,3 +165,130 @@ Commit өзгерістерді компьютердегі жергілікті 
 |/  
 * 4a34134 Repository: бастапқы құрылымды дайындау
 * 91fcd4a Initial commit
+(END)
+|\  
+| * 0769f01 (origin/task5, task5) Task5: README толықтыру
+| * 413ef26 Task5: GetLength қолдану
+| * 8d9cbe7 Task5: скриншотты қосу
+| * 4f89a8c Task5: README және құжаттаманы қосу
+| * 4f347af Task5: есептеу нәтижелерін тестілеу
+| * f776059 Task5: матрицаны құру және экранға шығару
+|/  
+* 4a34134 Repository: бастапқы құрылымды дайындау
+* 91fcd4a Initial commit
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+(END)
+|\  
+| * 0769f01 (origin/task5, task5) Task5: README толықтыру
+| * 413ef26 Task5: GetLength қолдану
+| * 8d9cbe7 Task5: скриншотты қосу
+| * 4f89a8c Task5: README және құжаттаманы қосу
+| * 4f347af Task5: есептеу нәтижелерін тестілеу
+| * f776059 Task5: матрицаны құру және экранға шығару
+|/  
+* 4a34134 Repository: бастапқы құрылымды дайындау
+* 91fcd4a Initial commit
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+|\  
+| * 0769f01 (origin/task5, task5) Task5: README толықтыру
+| * 413ef26 Task5: GetLength қолдану
+| * 8d9cbe7 Task5: скриншотты қосу
+| * 4f89a8c Task5: README және құжаттаманы қосу
+| * 4f347af Task5: есептеу нәтижелерін тестілеу
+| * f776059 Task5: матрицаны құру және экранға шығару
+|/  
+* 4a34134 Repository: бастапқы құрылымды дайындау
+* 91fcd4a Initial commit
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+|\  
+| * 0769f01 (origin/task5, task5) Task5: README толықтыру
+| * 413ef26 Task5: GetLength қолдану
+| * 8d9cbe7 Task5: скриншотты қосу
+| * 4f89a8c Task5: README және құжаттаманы қосу
+| * 4f347af Task5: есептеу нәтижелерін тестілеу
+| * f776059 Task5: матрицаны құру және экранға шығару
+|/  
+* 4a34134 Repository: бастапқы құрылымды дайындау
+* 91fcd4a Initial commit
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+(END)
+|\  
+| * 0769f01 (origin/task5, task5) Task5: README толықтыру
+| * 413ef26 Task5: GetLength қолдану
+| * 8d9cbe7 Task5: скриншотты қосу
+| * 4f89a8c Task5: README және құжаттаманы қосу
+| * 4f347af Task5: есептеу нәтижелерін тестілеу
+| * f776059 Task5: матрицаны құру және экранға шығару
+|/  
+* 4a34134 Repository: бастапқы құрылымды дайындау
+* 91fcd4a Initial commit
+```
